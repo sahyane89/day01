@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() 
+{
+    float yards,km,x =1093.61;
+    
+    printf("donner la distance en kilomètres et le transforme en yards");
+    scanf("%f",&km);
+    yards = km*1093.61;
+    scanf("%f=%f*%f",yards,km,x);
+
+    return 0;
+    
+}

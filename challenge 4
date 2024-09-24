@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int main() 
+{
+    float ms,kmh,x=0.27778;
+    
+    printf("donner la vitesse en kilomètres par heure et le transforme en mètres par seconde");
+    scanf("%f",&kmh);
+  
+    ms = kmh * 0.27778;
+    scanf("%f=%f*%f",ms,kmh,x);
+
+    return 0;
+    
+}

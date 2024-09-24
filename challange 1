@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+int main()
+{
+    char nom[20];
+    char prenom[20];
+    int age[10] ;
+    char sexe[10]; // 'M' pour masculin, 'F' pour féminin
+    char adress_email[20];
+
+
+
+
+    printf("entrez votre nom: ");
+    scanf("%s",nom);
+    printf("entrer votre prenom");
+    scanf("%s",prenom);
+    printf("entrer votre age ");
+    scanf("%d",age);
+    printf("entrer votre sexe");
+    scanf("%s,sexe");
+    printf("entrer votre adress_email");
+    scanf("%s, adress_email");
+
+return 0;
+}

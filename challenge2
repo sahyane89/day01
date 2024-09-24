@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+
+int main() 
+{
+    float k,x,c = 273.15;
+    
+    printf("donner la temperature en Celsius et le transforme en Kelvin");
+    scanf("%f",&c);
+
+    k = c + 273.15;
+    scanf("%f=%f+%f",k,c,x);
+
+    return 0;
+}

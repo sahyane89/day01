@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+
+int main()
+{
+ float c;
+ printf("donner la température en Celsius et affiche l'état de l'eau à cette température  :");
+ scanf("%f", &c);
+ if (c < 0)
+{
+ printf("solide");
+}
+     else if(0 <= c && c < 100)
+{
+    printf("liquide");
+}
+
+ else
+{
+    printf("gaz");
+}
+return(0);
+}
